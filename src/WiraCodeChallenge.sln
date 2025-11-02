@@ -1,10 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Presentation", "WiraCodeChallenge.Presentation\WiraCodeChallenge.Presentation.csproj", "{CFF522A4-1683-4540-AC31-43EE518790ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Domain", "WiraCodeChallenge.Domain\WiraCodeChallenge.Domain.csproj", "{7D60D876-6524-45BC-9E33-A7A69E44537D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Application", "WiraCodeChallenge.Application\WiraCodeChallenge.Application.csproj", "{6D70077F-5784-41AD-901D-43CA473CAB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Infrastructure", "WiraCodeChallenge.Infrastructure\WiraCodeChallenge.Infrastructure.csproj", "{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF522A4-1683-4540-AC31-43EE518790ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF522A4-1683-4540-AC31-43EE518790ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF522A4-1683-4540-AC31-43EE518790ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF522A4-1683-4540-AC31-43EE518790ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D60D876-6524-45BC-9E33-A7A69E44537D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D60D876-6524-45BC-9E33-A7A69E44537D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D60D876-6524-45BC-9E33-A7A69E44537D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D60D876-6524-45BC-9E33-A7A69E44537D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D70077F-5784-41AD-901D-43CA473CAB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D70077F-5784-41AD-901D-43CA473CAB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D70077F-5784-41AD-901D-43CA473CAB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D70077F-5784-41AD-901D-43CA473CAB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
