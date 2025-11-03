@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Presentation", "WiraCodeChallenge.Presentation\WiraCodeChallenge.Presentation.csproj", "{CFF522A4-1683-4540-AC31-43EE518790ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Domain", "WiraCodeChallenge.Domain\WiraCodeChallenge.Domain.csproj", "{7D60D876-6524-45BC-9E33-A7A69E44537D}"
@@ -7,6 +10,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Application", "WiraCodeChallenge.Application\WiraCodeChallenge.Application.csproj", "{6D70077F-5784-41AD-901D-43CA473CAB51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Infrastructure", "WiraCodeChallenge.Infrastructure\WiraCodeChallenge.Infrastructure.csproj", "{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiraCodeChallenge.Tests", "WiraCodeChallenge.Tests\WiraCodeChallenge.Tests.csproj", "{0756B5BB-4C85-4029-9C8E-9FBCEAEF88F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D70077F-5784-41AD-901D-43CA473CAB51} = {6D70077F-5784-41AD-901D-43CA473CAB51}
+		{7D60D876-6524-45BC-9E33-A7A69E44537D} = {7D60D876-6524-45BC-9E33-A7A69E44537D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +39,15 @@ Global
 		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF308B4C-4CAD-4336-B5B8-1ACAD13335E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0756B5BB-4C85-4029-9C8E-9FBCEAEF88F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0756B5BB-4C85-4029-9C8E-9FBCEAEF88F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0756B5BB-4C85-4029-9C8E-9FBCEAEF88F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0756B5BB-4C85-4029-9C8E-9FBCEAEF88F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11D866BC-4D79-4274-BC58-123296ED9C9B}
 	EndGlobalSection
 EndGlobal
